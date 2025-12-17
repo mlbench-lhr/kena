@@ -1,0 +1,42 @@
+// components/footer.tsx
+
+export default function Footer() {
+    return (
+        <footer className="w-full bg-[#2F563C] text-white px-10 py-20">
+            <div className="flex justify-between w-full">
+                <div className="max-w-sm">
+                    <h2 className="text-3xl font-serif mb-4">Kena</h2>
+
+                    <p className="text-sm leading-relaxed mb-6">
+                        See your emotions clearly.<br />
+                        Grow with intention.
+                    </p>
+
+                    <button className="bg-[#D7A95F] text-white text-sm px-6 py-2 rounded">
+                        Download
+                    </button>
+                </div>
+
+                <div>
+                    <h3 className="font-semibold mb-4">Quick Links</h3>
+
+                    <ul className="space-y-3 text-sm">
+                        <li>
+                            <a href="#">Founder’s Story</a>
+                        </li>
+                        <li>
+                            <a href="#">How Makena Works</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className="w-full border-t border-white/30 mt-16 pt-6 text-center text-sm">
+                © 2025 Makena. All rights reserved.
+            </div>
+        </footer>
+    );
+}
