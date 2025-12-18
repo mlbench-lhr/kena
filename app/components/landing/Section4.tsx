@@ -14,7 +14,7 @@ export default function Section4() {
           A personal journey intended to spark a movement of clarity.{" "}
         </p>
       </div>
-      <div className="flex justify-between items-start w-full [@media(min-width:1460px)]:w-365 ps-4 pe-4 sm:ps-10 sm:pe-10 md:ps-17.5 mt-10 md:mt-18 ">
+      <div className="flex justify-between items-center  w-full [@media(min-width:1460px)]:w-365 ps-4 pe-4 sm:ps-10 sm:pe-10 md:ps-17.5 mt-10 md:mt-6 xl:mt-0 ">
         <div className="flex flex-col justify-start w-full md:w-[60%] lg:w-[50%] xl:w-169 gap-2 items-start ">
           <h3 className="md:text-[18px] lg:text-[20px] xl:text-[22px] font-normal text-start text-black/50 w-full">
             Hi, I’m Loise, the dreamer behind kena. In 2021, I moved to a new

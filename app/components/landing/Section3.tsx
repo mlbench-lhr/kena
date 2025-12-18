@@ -214,7 +214,7 @@ export default function Section3() {
             className="relative [@media(min-width:1300px)]:absolute [@media(min-width:1300px)]:-bottom-[40%] [@media(min-width:1300px)]:left-[15%] flex flex-col justify-start items-start w-full [@media(min-width:920px)]:w-70 h-fit"
           />
         </div>
-        <div className="ps-4 px-4 sm:px-10 relative z-10 max-w-4xl  mx-auto">
+        <div className="w-full ps-4 px-4 sm:px-10 relative z-10 max-w-4xl  mx-auto">
           <p className="mt-2 sm:mt-12 max-w-2xl mx-auto text-gray-600 text-sm md:text-[20px] leading-relaxed px-4">
             Wake up calm, confident, and in control of your emotional story.{" "}
           </p>
@@ -263,7 +263,7 @@ const TextBox = ({
       <h3 className="text-[20px] lg:text-[24px] font-semibold text-black mt-5">
         {title}
       </h3>
-      <span className="text-base! md:text-sm! lg:text-[18px]! font-normal text-black text-start">
+      <span className="text-base! md:text-sm! lg:text-[18px]! font-normal text-black/50 text-start">
         {text}
       </span>
     </div>
