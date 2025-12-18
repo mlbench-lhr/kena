@@ -13,7 +13,7 @@ export default function Footer() {
             Grow with intention.
           </p>
 
-          <button className="bg-[#F0B964] text-white text-[14px] px-6 py-2 rounded-lg">
+          <button className="cursor-not-allowed bg-[#F0B964] text-white text-[14px] px-6 py-2 rounded-lg">
             Download
           </button>
         </div>
@@ -23,13 +23,19 @@ export default function Footer() {
 
           <ul className="space-y-3 text-sm">
             <li>
-              <a href="#">Founder’s Story</a>
+              <a href="#" className="cursor-not-allowed">
+                Founder’s Story
+              </a>
             </li>
             <li>
-              <a href="#">How Makena Works</a>
+              <a href="#" className="cursor-not-allowed">
+                How Makena Works
+              </a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="#" className="cursor-not-allowed">
+                Contact Us
+              </a>
             </li>
           </ul>
         </div>
