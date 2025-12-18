@@ -7,10 +7,12 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-[#2F563C] px-4 sm:px-6 lg:px-26 py-4">
-      <div className="w-full max-w-[1400px] mx-auto flex items-center justify-between relative">
+      <div className="w-full max-w-365 mx-auto flex items-center justify-between relative">
         {/* Logo */}
         <div className="flex items-center gap-3 z-20">
-          <span className="text-white text-xl font-serif">Kena</span>
+          <span className="text-white text-[32px] font-serif font-normal">
+            Kena
+          </span>
         </div>
 
         {/* Desktop Navigation */}

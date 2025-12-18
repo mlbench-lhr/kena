@@ -1,6 +1,7 @@
 // components/Hero.tsx
 
 import Image from "next/image";
+import mobile from "@/public/Group 1000013057 (1).png";
 
 export default function Section2() {
   return (
@@ -16,10 +17,14 @@ export default function Section2() {
           </p>
         </div>
         <div className="flex justify-between items-center w-full flex-col-reverse gap-y-6 xl:flex-row [@media(min-width:1460px)]:w-365 ps-0 xl:ps-17.5">
-          <div className="flex px-4 sm:px-10  flex-col justify-start gap-2 items-start w-full md:w-[80%] xl:w-125">
+          <div className="flex px-4 sm:px-10  flex-col justify-start gap-2 items-start w-full md:w-[80%] xl:w-130">
             <h3 className="text-base md:text-[20px] lg:text-[22px] font-normal text-start text-black/50">
               {
-                "Life changes—like loss, marriage, relocation, divorce, or adolescence—can change your emotional landscape and leave you feeling out of touch with yourself. Untended, they may shift behaviors, challenge relationships, or cloud your perspective. We've been there too, and you deserve emotional clarity and ease."
+                "Life changes—like loss, marriage, relocation, divorce, or adolescence—can change your emotional landscape and leave you feeling out of touch with yourself."
+              }
+              <br />
+              {
+                " Untended, they may shift behaviors, challenge relationships, or cloud your perspective. We've been there too, and you deserve emotional clarity and ease."
               }
             </h3>
             <h4 className="text-[20px] md:text-[24px] lg:text-[30px] font-bold text-[#20573B] text-start">
@@ -27,7 +32,7 @@ export default function Section2() {
               waves and working with wellness experts' support to curate
               something professional.
             </h4>
-            <div className="z-20 w-full mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="z-20 w-full mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-start items-center">
               <button className="cursor-not-allowed w-full sm:w-auto bg-[#2F5E4F] hover:bg-[#264A3E] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md">
                 Join the Waitlist
               </button>
@@ -37,13 +42,13 @@ export default function Section2() {
               </button>
             </div>
           </div>
-          <div className="-ms-6 md:ms-0">
+          <div className="">
             <Image
-              src={"/Group_1000013057.png"}
+              src={mobile.src}
               alt=""
               width={600}
               height={600}
-              className="w-auto h-auto"
+              className="w-auto xl:w-200 h-auto"
             />
           </div>
         </div>

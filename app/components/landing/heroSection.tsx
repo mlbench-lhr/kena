@@ -147,7 +147,7 @@ export default function HeroSection() {
           alt=""
           width={60}
           height={60}
-          className="absolute right-[12%] sm:right-[15%] lg:right-[18%] top-[70%] sm:top-[65%] lg:top-[28%] w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 opacity-80 block"
+          className="absolute right-[12%] sm:right-[20%] lg:right-[28%] top-[70%] sm:top-[65%] lg:top-[58%] w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 opacity-80 block"
         />
 
         {/* Heart 2 - Bottom Left */}
@@ -158,6 +158,19 @@ export default function HeroSection() {
           height={60}
           className="absolute left-[8%] sm:left-[10%] lg:left-[12%] top-[75%] sm:top-[73%] lg:top-[72%] w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 opacity-80 block"
         />
+        <svg
+          className="absolute right-[40%] sm:right-[40%] lg:right-[5%] top-[60%] sm:top-[55%] lg:top-[28%] w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 opacity-80 block"
+          xmlns="http://www.w3.org/2000/svg"
+          width="37"
+          height="35"
+          viewBox="0 0 37 35"
+          fill="none"
+        >
+          <path
+            d="M31.3643 34.6416L35.9804 10.3866C36.8851 5.64101 33.768 1.06086 29.0225 0.156205C24.2769 -0.748449 19.6968 2.36873 18.7921 7.11429L17.448 14.1809L10.3866 12.8369C5.64101 11.9322 1.06086 15.0494 0.156203 19.795C-0.74845 24.5405 2.36877 29.1206 7.11432 30.0253L31.3643 34.6416Z"
+            fill="#FFDACF"
+          />
+        </svg>
       </div>
     </section>
   );
