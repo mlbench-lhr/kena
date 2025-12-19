@@ -40,7 +40,7 @@ export default function Navbar() {
         {/* Desktop CTA Button */}
         <button
           disabled
-          className="cursor-not-allowed hidden lg:block bg-[#F0B964] text-white text-[14px] px-5 py-2 rounded-lg hover:bg-[#e5a84d] transition-colors z-20"
+          className="cursor-pointer hidden lg:block bg-[#F0B964] text-white text-[14px] px-5 py-2 rounded-lg hover:bg-[#e5a84d] transition-colors z-20"
         >
           Download Now
         </button>
@@ -100,7 +100,7 @@ export default function Navbar() {
               Why Kena
             </a>
             <button
-              className="cursor-not-allowed bg-[#F0B964] text-white text-sm px-5 py-3 rounded-lg mt-6 hover:bg-[#e5a84d] transition-colors"
+              className="cursor-pointer bg-[#F0B964] text-white text-sm px-5 py-3 rounded-lg mt-6 hover:bg-[#e5a84d] transition-colors"
               disabled
               onClick={() => setIsMenuOpen(false)}
             >
