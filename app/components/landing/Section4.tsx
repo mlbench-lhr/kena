@@ -2,12 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { JoinWaitlistModal } from "../JoinWaitlistModal";
 
 export default function Section4() {
   return (
     <section className="relative w-full h-fit flex flex-col items-center text-center py-15 bg-[#FFFCF6] overflow-hidden">
       {/* Main Content */}
-      <div className="relative z-10 max-w-4xl  mx-auto">
+      <div className="relative z- max-w-4xl  mx-auto">
         <h1 className="text-xl md:text-[30px] font-extrabold leading-tight gradient-block">
           So who came up with kena?
         </h1>
@@ -36,9 +37,7 @@ export default function Section4() {
           </h3>
 
           <div className="w-full mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="cursor-pointer w-full sm:w-auto bg-[#2F5E4F] hover:bg-[#264A3E] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md">
-              Join the Waitlist
-            </button>
+            <JoinWaitlistModal />
 
             <Link
               href={

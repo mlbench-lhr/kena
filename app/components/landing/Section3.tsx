@@ -1,6 +1,7 @@
 // components/Hero.tsx
 
 import Link from "next/link";
+import { JoinWaitlistModal } from "../JoinWaitlistModal";
 
 export default function Section3() {
   return (
@@ -221,9 +222,7 @@ export default function Section3() {
             Wake up calm, confident, and in control of your emotional story.{" "}
           </p>
           <div className="mt-2 md:mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="cursor-pointer w-full sm:w-auto bg-[#2F5E4F] hover:bg-[#264A3E] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md">
-              Join the Waitlist
-            </button>
+            <JoinWaitlistModal />
 
             <Link
               href={

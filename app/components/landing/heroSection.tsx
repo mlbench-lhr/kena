@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { JoinWaitlistModal } from "../JoinWaitlistModal";
 
 export default function HeroSection() {
   return (
@@ -112,10 +113,7 @@ export default function HeroSection() {
           </p>
 
           <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="cursor-pointer w-full sm:w-auto bg-[#2F5E4F] hover:bg-[#264A3E] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md">
-              Join the Waitlist
-            </button>
-
+            <JoinWaitlistModal />
             <Link
               href={
                 "https://docs.google.com/forms/d/e/1FAIpQLSegOjtXbctriyzBrNf_gzPjoOxHCiW8Yb9kz7QeN97prjMH2w/viewform"
