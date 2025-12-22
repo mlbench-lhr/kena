@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import mobile from "@/public/Group 1000013057 (1).png";
+import Link from "next/link";
+import { JoinWaitlistModal } from "../JoinWaitlistModal";
 
 export default function Section2() {
   return (
@@ -32,14 +34,17 @@ export default function Section2() {
               waves and working with wellness experts' support to curate
               something professional.
             </h4>
-            <div className="z-20 w-full mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-start items-center">
-              <button className="cursor-not-allowed w-full sm:w-auto bg-[#2F5E4F] hover:bg-[#264A3E] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md">
-                Join the Waitlist
-              </button>
-
-              <button className="w-full sm:w-auto bg-[#F0B964] hover:bg-[#C49563] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md cursor-not-allowed">
+            <div className=" w-full mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-start items-center">
+              <JoinWaitlistModal />
+              <Link
+                href={
+                  "https://docs.google.com/forms/d/e/1FAIpQLSegOjtXbctriyzBrNf_gzPjoOxHCiW8Yb9kz7QeN97prjMH2w/viewform"
+                }
+                target="_blank"
+                className="w-full sm:w-auto bg-[#F0B964] hover:bg-[#C49563] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md"
+              >
                 Take the Quick Survey
-              </button>
+              </Link>
             </div>
           </div>
           <div className="">

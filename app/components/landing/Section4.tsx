@@ -1,12 +1,14 @@
 // components/Hero.tsx
 
 import Image from "next/image";
+import Link from "next/link";
+import { JoinWaitlistModal } from "../JoinWaitlistModal";
 
 export default function Section4() {
   return (
     <section className="relative w-full h-fit flex flex-col items-center text-center py-15 bg-[#FFFCF6] overflow-hidden">
       {/* Main Content */}
-      <div className="relative z-10 max-w-4xl  mx-auto">
+      <div className="relative z- max-w-4xl  mx-auto">
         <h1 className="text-xl md:text-[30px] font-extrabold leading-tight gradient-block">
           So who came up with kena?
         </h1>
@@ -35,13 +37,17 @@ export default function Section4() {
           </h3>
 
           <div className="w-full mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="cursor-not-allowed w-full sm:w-auto bg-[#2F5E4F] hover:bg-[#264A3E] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md">
-              Join the Waitlist
-            </button>
+            <JoinWaitlistModal />
 
-            <button className="w-full sm:w-auto bg-[#F0B964] hover:bg-[#C49563] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md cursor-not-allowed">
+            <Link
+              href={
+                "https://docs.google.com/forms/d/e/1FAIpQLSegOjtXbctriyzBrNf_gzPjoOxHCiW8Yb9kz7QeN97prjMH2w/viewform"
+              }
+              target="_blank"
+              className="w-full sm:w-auto bg-[#F0B964] hover:bg-[#C49563] text-white px-6 sm:px-8 py-3 rounded-lg text-sm sm:text-base font-medium transition-colors shadow-md"
+            >
               Take the Quick Survey
-            </button>
+            </Link>
           </div>
         </div>
         <div className="hidden md:block w-[40%] lg:w-[50%] xl:w-150">
