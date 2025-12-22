@@ -6,7 +6,10 @@ import { JoinWaitlistModal } from "../JoinWaitlistModal";
 
 export default function Section4() {
   return (
-    <section className="relative w-full h-fit flex flex-col items-center text-center py-15 bg-[#FFFCF6] overflow-hidden">
+    <section
+      id="founderStory"
+      className="relative w-full h-fit flex flex-col items-center text-center py-15 bg-[#FFFCF6] overflow-hidden"
+    >
       {/* Main Content */}
       <div className="relative z- max-w-4xl  mx-auto">
         <h1 className="text-xl md:text-[30px] font-extrabold leading-tight gradient-block">

@@ -38,3 +38,6 @@ body {
   font-style: normal;
   font-weight: 1000;
 }
+html {
+  scroll-behavior: smooth !important;
+}

@@ -7,7 +7,10 @@ import { JoinWaitlistModal } from "../JoinWaitlistModal";
 
 export default function Section2() {
   return (
-    <section className="relative w-full h-fit md:min-h-310 flex flex-col items-center text-center bg-[#FFFCF6] overflow-hidden">
+    <section
+      id="whyKena"
+      className="relative w-full h-fit md:min-h-310 flex flex-col items-center text-center bg-[#FFFCF6] overflow-hidden"
+    >
       <div className="relative w-full [@media(min-width:1460px)]:w-365 h-fit md:min-h-310 py-20">
         {/* Main Content */}
         <div className="relative z-10 max-w-4xl mx-auto">

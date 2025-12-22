@@ -23,18 +23,13 @@ export default function Footer() {
 
           <ul className="space-y-3 text-sm">
             <li>
-              <a href="#" className="">
+              <a href="#founderStory" className="">
                 Founder’s Story
               </a>
             </li>
             <li>
-              <a href="#" className="">
+              <a href="#founderStory" className="">
                 How Makena Works
-              </a>
-            </li>
-            <li>
-              <a href="#" className="">
-                Contact Us
               </a>
             </li>
           </ul>

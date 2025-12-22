@@ -25,13 +25,13 @@ export default function Navbar() {
           </a>
           <a
             className="text-white text-sm tracking-wide hover:text-[#F0B964] transition-colors"
-            href="#"
+            href="#founderStory"
           >
             About Us
           </a>
           <a
             className="text-white text-sm tracking-wide hover:text-[#F0B964] transition-colors"
-            href="#"
+            href="#whyKena"
           >
             Why Kena
           </a>
@@ -87,14 +87,14 @@ export default function Navbar() {
             </a>
             <a
               className="text-white text-base py-3 border-b border-white/10 hover:text-[#F0B964] transition-colors"
-              href="#"
+              href="#about"
               onClick={() => setIsMenuOpen(false)}
             >
               About Us
             </a>
             <a
               className="text-white text-base py-3 border-b border-white/10 hover:text-[#F0B964] transition-colors"
-              href="#"
+              href="#whyKena"
               onClick={() => setIsMenuOpen(false)}
             >
               Why Kena
