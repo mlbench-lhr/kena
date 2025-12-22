@@ -20,7 +20,7 @@ export default function Section2() {
         </div>
         <div className="flex justify-between items-center w-full flex-col-reverse gap-y-6 xl:flex-row [@media(min-width:1460px)]:w-365 ps-0 xl:ps-17.5">
           <div className="flex px-4 sm:px-10  flex-col justify-start gap-2 items-start w-full md:w-[80%] xl:w-130">
-            <h3 className="text-base md:text-[20px] lg:text-[22px] font-normal text-start text-black/50">
+            <h3 className="text-[14px] md:text-[17px] lg:text-[19px] font-normal text-start text-black/50">
               {
                 "Life changes—like loss, marriage, relocation, divorce, or adolescence—can change your emotional landscape and leave you feeling out of touch with yourself."
               }
@@ -29,7 +29,7 @@ export default function Section2() {
                 " Untended, they may shift behaviors, challenge relationships, or cloud your perspective. We've been there too, and you deserve emotional clarity and ease."
               }
             </h3>
-            <h4 className="text-[20px] md:text-[24px] lg:text-[30px] font-bold text-[#20573B] text-start">
+            <h4 className="text-[16px] md:text-[20px] lg:text-[25px] font-bold text-[#20573B] text-start">
               Kena is your guide, crafted by a founder who's navigated these
               waves and working with wellness experts' support to curate
               something professional.
@@ -53,7 +53,7 @@ export default function Section2() {
               alt=""
               width={600}
               height={600}
-              className="w-auto xl:w-200 h-auto"
+              className="w-auto xl:w-170 h-auto"
             />
           </div>
         </div>
