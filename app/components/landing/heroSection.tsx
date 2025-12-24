@@ -130,7 +130,7 @@ export default function HeroSection() {
 
         {/* Happy Emoji - Top Right */}
         <Image
-          src="/images/landing/heroSection/emoji-happy.png"
+          src="/images/landing/heroSection/emoji-happy.svg"
           alt=""
           width={160}
           height={160}
