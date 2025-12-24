@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Makena",
+  title: "Kena",
   description: "Riding life's emotional waves? Seek clarity with kena.",
 };
 
