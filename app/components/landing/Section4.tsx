@@ -22,7 +22,7 @@ export default function Section4() {
       <div className="flex justify-between items-center  w-full [@media(min-width:1460px)]:w-365 ps-4 pe-4 sm:ps-10 sm:pe-10 md:ps-17.5 mt-10 md:mt-6 xl:mt-0 ">
         <div className="flex flex-col justify-start w-full md:w-[60%] lg:w-[50%] xl:w-169 gap-2 items-start ">
           <h3 className="md:text-[14px] lg:text-[16px] xl:text-[19px] font-normal text-black/50 w-full text-justify md:text-start">
-            Hi, I’m Loise, the dreamer behind kena. In 2021, I moved to a new
+            Hi, I’m Eria, the dreamer behind kena. In 2021, I moved to a new
             country, full of hope for an exciting adventure. Instead, I found
             myself navigating unfamiliar cultural differences and long work
             hours in a place far from home, where I knew no one. By 2023, my
