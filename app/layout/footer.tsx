@@ -1,4 +1,5 @@
 // components/footer.tsx
+import { Hourglass } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -13,8 +14,12 @@ export default function Footer() {
             Grow with intention.
           </p>
 
-          <button className="cursor-pointer bg-[#F0B964] text-white text-[14px] px-6 py-2 rounded-lg">
-            Download
+          <button
+            disabled
+            className="cursor-pointer flex! justify-center items-center gap-2 w-fit hidden lg:block bg-[#F0B964] text-white text-[14px] px-6 py-2 rounded-lg hover:bg-[#e5a84d] transition-colors z-20"
+          >
+            <span className="">In Development</span>
+            <Hourglass size={12} />
           </button>
         </div>
 

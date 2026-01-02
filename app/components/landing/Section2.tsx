@@ -29,13 +29,16 @@ export default function Section2() {
               }
               <br />
               {
-                " Untended, they may shift behaviors, challenge relationships, or cloud your perspective. We've been there too, and you deserve emotional clarity and ease."
+                " Untended, these emotions may shift behaviors, challenge relationships, or cloud your perspective. We've been there too, and you deserve emotional clarity and ease."
               }
             </h3>
             <h4 className="text-[16px] md:text-[20px] lg:text-[25px] font-bold text-[#20573B] text-start">
-              Kena is your guide, crafted by a founder who's navigated these
+              {/* Kena is your guide, crafted by a founder who's navigated these
               waves and working with wellness experts' support to curate
-              something professional.
+              something professional. */}
+              Kena, still in development phase, will help us navigate to
+              clarity. It is crafted by a founder who's navigated these waves
+              and is done in collaboration with wellness professionals.
             </h4>
             <div className=" w-full mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-start items-center">
               <JoinWaitlistModal />

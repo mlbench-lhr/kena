@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Hourglass, Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,9 +43,10 @@ export default function Navbar() {
           {/* Desktop CTA Button */}
           <button
             disabled
-            className="cursor-pointer hidden lg:block bg-[#F0B964] text-white text-[14px] px-5 py-2 rounded-lg hover:bg-[#e5a84d] transition-colors z-20"
+            className="cursor-pointer justify-center items-center gap-2 w-fit hidden lg:flex bg-[#F0B964] text-white text-[14px] px-5 py-2 rounded-lg hover:bg-[#e5a84d] transition-colors z-20"
           >
-            Download Now
+            <span className="">In Development</span>
+            <Hourglass size={12} />
           </button>
 
           {/* Mobile Menu Button */}
@@ -103,11 +104,12 @@ export default function Navbar() {
                 Why Kena
               </a>
               <button
-                className="cursor-pointer bg-[#F0B964] text-white text-sm px-5 py-3 rounded-lg mt-6 hover:bg-[#e5a84d] transition-colors"
+                className="cursor-pointer justify-center items-center gap-2 flex! bg-[#F0B964] text-white text-sm px-5 py-3 rounded-lg mt-6 hover:bg-[#e5a84d] transition-colors"
                 disabled
                 onClick={() => setIsMenuOpen(false)}
               >
-                Download Now
+                <span className="">In Development</span>
+                <Hourglass size={12} />
               </button>
             </div>
           </div>

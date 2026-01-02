@@ -6,7 +6,7 @@ import { JoinWaitlistModal } from "../JoinWaitlistModal";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full h-fit md:h-200 lg:h-275 flex flex-col items-center text-center bg-white overflow-hidden">
+    <section className="relative w-full h-fit lg:h-[700px] flex flex-col items-center text-center bg-white overflow-hidden">
       <Image
         src="/images/landing/heroSection/blue-line.svg"
         alt=""
@@ -15,7 +15,7 @@ export default function HeroSection() {
         className="absolute bottom-0 translate-y-1/6 left-1/2 -translate-x-1/2 w-full max-w-none opacity-50 pointer-events-none"
         priority
       />{" "}
-      <div className="relative w-full [@media(min-width:1460px)]:w-365 py-10 md:py-0 h-150 md:h-200 lg:h-275 flex  px-4 sm:px-6 lg:px-8 flex-col items-center text-center bg-transparent overflow-hidden">
+      <div className="relative w-full [@media(min-width:1460px)]:w-365 py-10 md:py-0 h-150 lg:h-[700px]  flex  px-4 sm:px-6 lg:px-8 flex-col items-center text-center bg-transparent overflow-hidden">
         <div className="absolute top-2 left-0 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ export default function HeroSection() {
 
           <p className="mt-6 sm:mt-8 max-w-2xl mx-auto text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed px-4">
             {
-              "Life's changes can stir up strong and sometimes unfamiliar emotions. Kena—your guide from a founder who's been there—offers a three-step journey to clarity and control: Capture, Aspire, and Unlock Growth."
+              "Life's changes can stir up strong and sometimes unfamiliar emotions. We are developing an app Kena that offer a three-step journey to clarity and control: Capture, Aspire, and Unlock Growth."
             }
           </p>
 
